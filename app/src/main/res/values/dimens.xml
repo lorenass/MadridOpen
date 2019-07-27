@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="toolbar_margin_top">10dp</dimen>
+    <dimen name="toolbar_menu_size">20dp</dimen>
+    <dimen name="toolbar_menu_lateral_margin">8dp</dimen>
+    <dimen name="toolbar_title_size">24sp</dimen>
+    <dimen name="toolbar_ppal_size">52dp</dimen>
+    <dimen name="toolbar_ppal_margin">12dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+</resources>
