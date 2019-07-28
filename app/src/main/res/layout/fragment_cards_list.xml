@@ -19,7 +19,7 @@ android:paddingRight="8dp">
     tools:text="@string/default_no_cards"
     />
 
-<android.support.v7.widget.RecyclerView
+<androidx.recyclerview.widget.RecyclerView
     android:id="@+id/rvPlaces"
     android:layout_width="match_parent"
     android:layout_height="match_parent"/>
