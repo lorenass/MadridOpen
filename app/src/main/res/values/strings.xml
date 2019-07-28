@@ -6,9 +6,10 @@
     <string name="navigation_places">Lugares</string>
     <string name="navigation_settings">Settings</string>
 
-    <string name="toolbar_title">MadridOpen</string>
+    <string name="toolbar_title">MadridOpen2</string>
     <string name="delete">DELETE</string>
     <string name="descIcon"> Activity representation</string>
     <string name="deleteIcon"> Delete favorite</string>
     <string name="favorite"> Favorite name</string>
+    <string name="default_no_cards">No han podido cargarse las actividades</string>
 </resources>
