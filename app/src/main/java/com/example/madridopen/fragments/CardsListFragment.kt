@@ -27,10 +27,10 @@ class CardsListFragment: Fragment() {
     }
 
     private fun getCards() {
-        val gsonRequest = GsonRequest(getUrl(), Activity::class.java, null, Response.Listener { activity ->
+        val gsonRequest = GsonRequest(getUrl(), Activity::class.java,null,  Response.Listener { activity ->
             //setLoading(false);
             if (activity != null) {
-                Log.d("api", "data es " + activity.description);
+                Log.d("api", "data es string " + activity);
                 /*
                 val placeW = PlaceWeatherView(forecast, fName, id)
                 placesArray!!.add(placeW)

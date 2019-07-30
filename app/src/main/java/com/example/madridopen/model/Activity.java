@@ -1,6 +1,27 @@
 package com.example.madridopen.model;
 
+import java.util.List;
+
 public class Activity {
+
+    private Context context;
+
+    private List<graph> graph;
+
+    public void setcontext(Context context){
+        this.context = context;
+    }
+    public Context getcontext(){
+        return this.context;
+    }
+    public void setgraph(List<graph> graph){
+        this.graph = graph;
+    }
+    public List<graph> getGraph(){
+        return this.graph;
+    }
+
+    /*
 
     private String uid;
     private String dtend;
@@ -152,6 +173,7 @@ public class Activity {
     public void setExcludeddays(String excludeddays) {
         this.excludeddays = excludeddays;
     }
+    */
 }
 
 
